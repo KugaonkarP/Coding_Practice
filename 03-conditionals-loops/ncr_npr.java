@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class ncr_npr {
@@ -20,6 +19,5 @@ public class ncr_npr {
         }
         System.out.println("nCr: " + (nFact / (rFact * n_rFact)));
         System.out.println("nPr: " + (nFact / n_rFact));
-
     }
 }
